@@ -1,0 +1,106 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.layout {
+  height: 800px;
+  width: 375px;
+  background-color: #fcfcfc;
+  border-radius: 10px;
+}
+.status {
+  height: 44px;
+  width: 375px;
+  border-radius: 10px;
+}
+.text {
+  width: 54px;
+  height: 18px;
+  font-family: "Montserrat";
+  padding-left: 20px;
+  padding-top: 0px;
+}
+.status_bar {
+  height: 11px;
+  width: 66px;
+  align-items: end;
+  justify-content: end;
+  padding-left: 10px;
+  margin-left: 290px;
+  margin-top: -30px;
+}
+#cellular {
+  height: 13px;
+  margin-bottom: 1px;
+}
+#wifi {
+  height: 15px;
+}
+#battery {
+  height: 15px;
+  width: 15px;
+}
+
+span {
+  width: 163px;
+  height: 23px;
+  padding-left: 90px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23.44px;
+
+  color: black;}
+.goals{
+
+ justify-content: space-between;
+  width: 343px;
+  height: 40px;
+  border-radius: 12px;
+  margin-top: 25px;
+  margin-left: 10px;
+  background: #F1F1F1;
+  
+}
+.data{
+width: 60px;
+height: 15px;
+display: inline;
+text-align: center;
+padding-left: 10px;
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 600;
+line-height: 30.63px;
+color: var(--black, #2C2B2B);
+
+}
+
+input[type="checkbox"]{
+  height: 22px;
+  width: 22px;
+  display: inline;
+  justify-content: center;
+margin-top: -100px;
+  margin-left: 300px;
+  margin-bottom: 80px;
+padding-bottom: -100px;
+ border:1px solid #7b91ff;
+}
+
+.submit {
+  width: 343px;
+  height: 45px;
+  margin-left: 10px;
+  border-radius: 12px;
+  border: 1px solid white;
+  background: linear-gradient(270deg, #7b91ff 0%, #95beff 100%);
+  margin-top: 150px;
+  color: #fcfcfc;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: center;
+}

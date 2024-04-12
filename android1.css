@@ -1,0 +1,123 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.layout {
+  height: 800px;
+  width: 375px;
+  background-color: #fcfcfc;
+ 
+  border-radius: 10px;
+}
+.status {
+  height: 44px;
+  width: 375px;
+  border-radius: 10px;
+}
+.text {
+  width: 54px;
+  height: 18px;
+  font-family: "Montserrat";
+  padding-left: 20px;
+  padding-top: 0px;
+}
+.status_bar {
+  height: 11px;
+  width: 66px;
+  align-items: end;
+  justify-content: end;
+  padding-left: 10px;
+  margin-left: 290px;
+  margin-top: -30px;
+}
+#cellular {
+  height: 13px;
+  margin-bottom: 1px;
+}
+#wifi {
+  height: 15px;
+}
+#battery {
+  height: 15px;
+  width: 15px;
+}
+#skip {
+  height: 36px;
+  width: 20px;
+  padding-left: 323px;
+  padding-top: 8px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: left;
+  color: #9fb2ff;
+}
+.image {
+  height: 282px;
+  width: 282px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 132px;
+  padding-left: 42px;
+}
+.image2 {
+  height: 234.61px;
+  width: 352px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 132px;
+  padding-left: 15px;
+}
+.content {
+  height: 24px;
+  width: 160px;
+  padding-top: 10px;
+  padding-left: 16px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.38px;
+  text-align: left;
+}
+.sub-content {
+  width: 343px;
+  height: 60px;
+  padding-left: 20px;
+  gap: 0px;
+  opacity: 2px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: left;
+  color: #787878;
+}
+.group1 {
+  height: 60px;
+  width: 60px;
+
+  margin-left: 280px;
+  margin-top: 89px;
+}
+.ecclipse {
+  width: 50px;
+  height: 50px;
+  margin-left: 3px;
+  margin-top: 6px;
+  background: linear-gradient(90.95deg, #dee5ff 0.79%, #809aff 99.18%);
+  border-radius: 100px;
+}
+.vector {
+  width: 6px;
+  height: 12px;
+  margin-top: -35px;
+  margin-left: 24px;
+  color: #fcfcfc;
+  animation-timing-function: ease-out;
+  animation-duration: 917ms;
+}
+a{
+  text-decoration: none;
+}
